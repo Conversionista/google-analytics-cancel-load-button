@@ -1,4 +1,6 @@
-# google analytics cancel load button
+# Google Analytics Cancel Load Button
+
+User script to add a cancel button to the Google Analytics loading screen
 
 ![Screenshot](https://d3vv6lp55qjaqc.cloudfront.net/items/2g322m091d0U06420l3f/Image%202016-12-07%20at%203.46.30%20PM.png)
 
