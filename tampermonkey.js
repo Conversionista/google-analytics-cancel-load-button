@@ -1,13 +1,13 @@
-// ==UserScript==
-// @name         Cancel Analytics
-// @namespace    http://tampermonkey.net/
-// @version      0.2
-// @description  try to take over the world!
-// @author       Conversionista!
-// @match        https://analytics.google.com/*
-// @grant        none
-// ==/UserScript==
-
+// @name            Google Analytics Cancel Load Button
+// @namespace       http://tampermonkey.net/
+// @version         0.3
+// @description     A button to cancel the annoying loading screen in Google Analytics
+// @author          Conversionista!
+// @match           https://analytics.google.com/*
+// @grant           none
+// @updateURL       https://openuserjs.org/meta/conversionista/Google_Analytics_Cancel_Load_Button.meta.js
+// @downloadURL     https://openuserjs.org/src/scripts/conversionista/Google_Analytics_Cancel_Load_Button.user.js
+    
 (function() {
     var origOpen = XMLHttpRequest.prototype.open;
 
